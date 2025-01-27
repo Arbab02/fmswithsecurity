@@ -67,7 +67,7 @@ export default function FinanceDashboard() {
 
   return (
     <div id="dashboard" className="min-h-screen bg-gray-200 pl-20 pr-4 w-[100%]  py-16">
-      <h1 className="text-4xl font-bold text-center mb-8 text-gray-700">Your Finance</h1>
+      <h1 className="text-4xl font-bold text-center mb-8 text-indigo-600">Your Finance</h1>
 
     <div className="flex flex-wrap sticky top-0 z-10 bg-gray-200 justify-center md:justify-end items-center gap-4 p-4 md:p-6 mb-6 text-xs md:text-base">
   <div className="flex flex-col  items-center md:items-end">
