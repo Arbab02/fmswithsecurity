@@ -21,6 +21,26 @@ export default function Home() {
       <p className="text-indigo-600 mt-4 text-base sm:text-lg md:text-xl font-light">
         TechStack: Next.js, TailwindCSS, Framer Motion, Recharts, MongoDB.
       </p>
+      <h1 className="text-indigo-700 mb-4 text-4xl sm:text-3xl md:text-4xl font-semibold leading-tight">
+          Features
+        </h1>
+      <ul className="list-none px-2 font-light">
+        <li className="text-lg md:text-xl lg:text-xl">
+          Finance & Deals Management
+        </li>
+        <li className="text-lg md:text-xl lg:text-xl">
+          Export To Excel & PDF
+        </li>
+        <li className="text-lg md:text-xl lg:text-xl">
+          Data Visualization with Charts
+        </li>
+        <li className="text-lg md:text-xl lg:text-xl">
+          Financial Tools
+        </li>
+        <li className="text-lg md:text-xl lg:text-xl">
+          Secure Access
+        </li>
+      </ul>
     </div>
   );
 }
