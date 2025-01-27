@@ -29,7 +29,7 @@ const page = () => {
   return (
     <SignedIn>
     <div className="flex flex-col justify-center items-center bg-gray-200  py-16 sticky top-0 z-10">
-      <h1 className="text-4xl font-bold text-center mb-8 pl-16 md:pl-0 text-gray-700">Dashboards</h1>
+      <h1 className="text-4xl font-bold text-center mb-8 pl-16 md:pl-0 text-indigo-600">Dashboards</h1>
       {/* Filter Buttons */}
       <div className='pl-16 md:pl-0'>
         <button
