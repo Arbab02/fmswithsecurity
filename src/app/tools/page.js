@@ -10,7 +10,7 @@ const Page = () => {
 
   return (
     <div className="pl-14 py-10 lg:pl-0">
-      <h1 className="text-center text-3xl md:text-4xl font-bold">Finance Tools</h1>
+      <h1 className="text-center text-3xl md:text-4xl text-indigo-700 font-bold">Finance Tools</h1>
       <div className="flex flex-wrap justify-center gap-4 my-6 px-6 py-8 sticky top-0 bg-white z-10">
         <button 
           onClick={() => setVisibleComponent('all')} 
