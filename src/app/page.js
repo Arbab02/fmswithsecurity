@@ -24,7 +24,7 @@ export default function Home() {
       <h1 className="text-indigo-700 mb-4 text-4xl sm:text-3xl md:text-4xl font-semibold leading-tight">
           Features
         </h1>
-      <ul className="list-none px-2 font-light">
+      <ul className="list-none text-indigo-700 px-2 font-light">
         <li className="text-lg md:text-xl lg:text-xl">
           Finance & Deals Management
         </li>
