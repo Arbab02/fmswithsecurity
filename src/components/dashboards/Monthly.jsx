@@ -61,7 +61,7 @@ export default function FinanceDashboard() {
     const canvas = await html2canvas(element);
     const imgData = canvas.toDataURL('image/png');
     const pdf = new jsPDF('landscape');
-    pdf.addImage(imgData, 'PNG', 10, 10, 280, 190);
+    pdf.addImage(imgData, 'PNG', 10, 10, 280, 210);
     pdf.save('FinanceMetrics.pdf');
   };
 
